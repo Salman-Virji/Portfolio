@@ -1,4 +1,4 @@
-# Salman Virji – Portfolio Site 💼
+# Salman Virji – Portfolio Site 
 
 Welcome to my personal portfolio! This site showcases who I am, the projects I've built, and how to get in touch with me.
 
