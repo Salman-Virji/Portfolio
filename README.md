@@ -1,12 +1,49 @@
-# React + Vite
+# Salman Virji – Portfolio Site 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site showcases who I am, the projects I've built, and how to get in touch with me.
 
-Currently, two official plugins are available:
+🌐 **Live Site**: [salmanvirji.com](https://salmanvirji.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive design with Tailwind CSS
+- Dark mode toggle 🌙☀️
+- Smooth layout and clean typography
+- Downloadable resume
+- Live links to deployed projects + GitHub repos
+
+---
+
+## 🛠 Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Netlify](https://netlify.com) for hosting
+
+---
+
+## 📁 Projects Included
+
+### 🧩 Find and Play
+A web app for organizing group activities  
+🔗 [Live Demo](https://findandplay.netlify.app)  
+📂 [Repo](https://github.com/Salman-Virji/FindAndPlayGroupB)
+
+### 🍩 Donut Clicker
+A fun incremental web game  
+🔗 [Live Demo](https://donut-clicker.netlify.app)  
+📂 [Repo](https://github.com/Salman-Virji/Donut-Clicker)
+
+---
+
+## 📫 Contact Me
+
+📧 Email: salmanvirji@gmail.com  
+💼 LinkedIn: [linkedin.com/in/salman-virji-504419195](https://www.linkedin.com/in/salman-virji-504419195)
+
+---
+
+Thanks for checking out my portfolio! 😄
