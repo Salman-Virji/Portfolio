@@ -115,6 +115,15 @@ export default function App() {
                   >
                     View on GitHub →
                   </a>
+
+                  <a
+                    href="https://donutclicker.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-4 text-sm text-blue-500 dark:text-blue-300 hover:underline"
+                  >
+                    Live demo →
+                  </a>
                 </div>
               </div>
             </section>
