@@ -107,23 +107,25 @@ export default function App() {
                     <span className="bg-pink-500 px-2 py-1 rounded">HTML</span>
                     <span className="bg-indigo-500 px-2 py-1 rounded">CSS</span>
                   </div>
-                  <a
-                    href="https://github.com/Salman-Virji/Donut-Clicker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-4 text-sm text-blue-500 dark:text-blue-300 hover:underline"
-                  >
-                    View on GitHub →
-                  </a>
+                  <div className="mt-1 flex flex-col ">
+                    <a
+                      href="https://github.com/Salman-Virji/Donut-Clicker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-4 text-sm text-blue-500 dark:text-blue-300 hover:underline"
+                    >
+                      View on GitHub →
+                    </a>
 
-                  <a
-                    href="https://donutclicker.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-4 text-sm text-blue-500 dark:text-blue-300 hover:underline"
-                  >
-                    Live demo →
-                  </a>
+                    <a
+                      href="https://donutclicker.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm text-green-300  hover:underline "
+                    >
+                      Live demo →
+                    </a>
+                  </div>
                 </div>
               </div>
             </section>
@@ -133,17 +135,19 @@ export default function App() {
               <h2 className="text-center text-2xl font-semibold mb-2 border-b pb-1">
                 Skills
               </h2>
-              
+
               <div className="flex justify-center flex-wrap gap-2 text-sm text-white">
-                    <span className="bg-blue-500 px-2 py-1 rounded">React</span>
-                    <span className="bg-green-800 px-2 py-1 rounded">Django</span>
-                    <span className="bg-purple-500 px-2 py-1 rounded">SQL</span>
-                    <span className="bg-green-600 px-2 py-1 rounded">Git</span>
-                    <span className="bg-orange-500 px-2 py-1 rounded">Python</span>
-                    <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
-                    <span className="bg-pink-500 px-2 py-1 rounded">HTML</span>
-                    <span className="bg-indigo-500 px-2 py-1 rounded">CSS</span>
-                  </div>
+                <span className="bg-blue-500 px-2 py-1 rounded">React</span>
+                <span className="bg-green-800 px-2 py-1 rounded">Django</span>
+                <span className="bg-purple-500 px-2 py-1 rounded">SQL</span>
+                <span className="bg-green-600 px-2 py-1 rounded">Git</span>
+                <span className="bg-orange-500 px-2 py-1 rounded">Python</span>
+                <span className="bg-yellow-500 px-2 py-1 rounded">
+                  JavaScript
+                </span>
+                <span className="bg-pink-500 px-2 py-1 rounded">HTML</span>
+                <span className="bg-indigo-500 px-2 py-1 rounded">CSS</span>
+              </div>
             </section>
             {/*  CONTACT SECTION  */}
             <section className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg dark:shadow-2xl rounded-2xl p-6 mb-8 transition-all ">
