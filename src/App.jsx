@@ -168,6 +168,46 @@ export default function App() {
                     </a>
                   </div>
                 </div>
+
+                {/* Project Card 3 */}
+                <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl p-4 shadow-sm hover:shadow-lg transition">
+                  <h3 className="text-xl font-semibold  mb-2">
+                    Job Tracker
+                  </h3>
+                  <p className="text-gray-700 dark:text-gray-300 mb-2">
+                    A Web app to to track your job applications
+                  </p>
+                  <div className="flex flex-wrap gap-2 text-sm text-white">
+                    <span className="bg-yellow-500 px-2 py-1 rounded">
+                      Next.js
+                    </span>
+
+                    <span className="bg-indigo-500 px-2 py-1 rounded">
+                      Tailwind CSS
+                    </span>
+                    <span className="bg-blue-500 px-2 py-1 rounded">React</span>
+                    <span className="bg-purple-600 px-2 py-1 rounded">ShadCN</span>
+                  </div>
+                  <div className="mt-1 flex flex-col ">
+                    <a
+                      href="https://github.com/Salman-Virji/Job-tracker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-4 text-sm text-blue-500 dark:text-blue-300 hover:underline"
+                    >
+                      View on GitHub →
+                    </a>
+
+                    <a
+                      href="jobtracker.salmanvirji.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm text-green-300  hover:underline "
+                    >
+                      Live demo →
+                    </a>
+                  </div>
+                </div>
               </div>
             </section>
 
