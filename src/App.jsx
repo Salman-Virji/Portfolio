@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import profileImg from "./assets/profile.png";
+import initailsImg from "./assets/initials.png";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -35,7 +36,7 @@ export default function App() {
 
           <section className="text-center py-16 px-4">
             <img
-              src={profileImg}
+              src={initailsImg}
               alt="Salman Virji"
               className="w-28 h-28 rounded-full mx-auto mb-6 shadow-lg border-4 border-black-500 dark:border-black-500"
             />
@@ -71,7 +72,7 @@ export default function App() {
                 <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl p-4 shadow-sm hover:shadow-lg transition">
                   <h3 className="text-xl font-semibold  mb-2">Job Tracker</h3>
                   <p className="text-gray-700 dark:text-gray-300 mb-2">
-                    A Web app to to track your job applications
+                    A full-stack application to help track and manage your job applications.
                   </p>
                   <div className="flex flex-wrap gap-2 text-sm text-white">
                     <span className="bg-yellow-500 px-2 py-1 rounded">
@@ -87,6 +88,7 @@ export default function App() {
                     <span className="bg-purple-600 px-2 py-1 rounded">
                       ShadCN
                     </span>
+                    <span className="bg-orange-500 px-2 py-1 rounded">Subabase(DB + Auth)</span>
                   </div>
                   <div className="mt-1 flex flex-col ">
                     <a
@@ -150,8 +152,7 @@ export default function App() {
                     Quote Generator
                   </h3>
                   <p className="text-gray-700 dark:text-gray-300 mb-2">
-                    A Web app to view quotes and get your daily quote. Built
-                    with React, TailwindCSS and QuotableAPI
+                    A Web app to view quotes and get your daily quote
                   </p>
                   <div className="flex flex-wrap gap-2 text-sm text-white">
                     <span className="bg-yellow-500 px-2 py-1 rounded">
@@ -188,8 +189,7 @@ export default function App() {
                 <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl p-4 shadow-sm hover:shadow-lg transition">
                   <h3 className="text-xl font-semibold  mb-2">Find and Play</h3>
                   <p className="text-gray-700 dark:text-gray-300 mb-2">
-                    A web app to discover and organize group activities. Built
-                    with React & Django.
+                    A web app to organize group activities and set specific group tasks.
                   </p>
                   <div className="flex flex-wrap gap-2 text-sm text-white">
                     <span className="bg-blue-500 px-2 py-1 rounded">React</span>
@@ -252,6 +252,15 @@ export default function App() {
                   className="text-blue-600 hover:underline"
                 >
                   linkedin.com/in/salman-virji-504419195
+                </a>
+              </p>
+              <p>
+                GitHub:{" "}
+                <a
+                  href="https://www.linkedin.com/in/salman-virji-504419195"
+                  className="text-blue-600 hover:underline"
+                >
+                  https://github.com/Salman-Virji
                 </a>
               </p>
 
