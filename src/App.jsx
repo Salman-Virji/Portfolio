@@ -248,16 +248,16 @@ export default function App() {
               <p>
                 LinkedIn:{" "}
                 <a
-                  href="https://www.linkedin.com/in/salman-virji-504419195"
+                  href="https://www.linkedin.com/in/salmanvirji/"
                   className="text-blue-600 hover:underline"
                 >
-                  linkedin.com/in/salman-virji-504419195
+                  https://www.linkedin.com/in/salmanvirji/
                 </a>
               </p>
               <p>
                 GitHub:{" "}
                 <a
-                  href="https://www.linkedin.com/in/salman-virji-504419195"
+                  href="https://github.com/Salman-Virji"
                   className="text-blue-600 hover:underline"
                 >
                   https://github.com/Salman-Virji
